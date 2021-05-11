@@ -1,0 +1,57 @@
+body {
+    font-family: poppins, sans-serif;
+    background-color: rgba(194, 194, 194, 0.596);
+
+}
+#c-form{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+
+}
+form {
+    margin: 0 auto;
+}
+
+
+input[type=number], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+    outline: none;
+    background-color: rgb(243, 243, 243);
+   
+    
+    
+}
+input[type=button] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(50, 143, 50);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: poppins;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 255, 55);
+    transition: 2s;
+}
+#res {
+    max-width: 300px;
+    border:1px solid #ccc;
+    margin: 5px auto;
+    text-align: center;
+    
+    
+    
+}
